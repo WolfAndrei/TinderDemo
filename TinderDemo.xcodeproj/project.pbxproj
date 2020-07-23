@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2E38F02B24C867990072176B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F02A24C867990072176B /* AppDelegate.swift */; };
 		2E38F02D24C867990072176B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F02C24C867990072176B /* SceneDelegate.swift */; };
-		2E38F02F24C867990072176B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F02E24C867990072176B /* ViewController.swift */; };
+		2E38F02F24C867990072176B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F02E24C867990072176B /* HomeController.swift */; };
 		2E38F03224C867990072176B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38F03024C867990072176B /* Main.storyboard */; };
 		2E38F03424C8679E0072176B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E38F03324C8679E0072176B /* Assets.xcassets */; };
 		2E38F03724C8679E0072176B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38F03524C8679E0072176B /* LaunchScreen.storyboard */; };
+		2E38F03F24C86A410072176B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F03E24C86A410072176B /* Extensions.swift */; };
+		2E38F04124C876350072176B /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F04024C876350072176B /* HomeBottomControlsStackView.swift */; };
+		2E50233E24C87B65003570DE /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50233D24C87B65003570DE /* TopNavigationStackView.swift */; };
+		2EB8A7D924C968F60016EDB4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8A7D824C968F60016EDB4 /* CardView.swift */; };
+		2EB8A7DE24C99F610016EDB4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8A7DD24C99F610016EDB4 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E38F02724C867990072176B /* TinderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E38F02A24C867990072176B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E38F02C24C867990072176B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E38F02E24C867990072176B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E38F02E24C867990072176B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		2E38F03124C867990072176B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E38F03324C8679E0072176B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E38F03624C8679E0072176B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E38F03824C8679E0072176B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E38F03E24C86A410072176B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2E38F04024C876350072176B /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		2E50233D24C87B65003570DE /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		2EB8A7D824C968F60016EDB4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2EB8A7DD24C99F610016EDB4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		2E38F02924C867990072176B /* TinderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2EB8A7DC24C99F480016EDB4 /* Model */,
+				2EB8A7DB24C987FE0016EDB4 /* Views */,
+				2EB8A7DA24C987EE0016EDB4 /* Extensions */,
 				2E38F02A24C867990072176B /* AppDelegate.swift */,
 				2E38F02C24C867990072176B /* SceneDelegate.swift */,
-				2E38F02E24C867990072176B /* ViewController.swift */,
+				2E38F02E24C867990072176B /* HomeController.swift */,
 				2E38F03024C867990072176B /* Main.storyboard */,
 				2E38F03324C8679E0072176B /* Assets.xcassets */,
 				2E38F03524C8679E0072176B /* LaunchScreen.storyboard */,
 				2E38F03824C8679E0072176B /* Info.plist */,
 			);
 			path = TinderDemo;
+			sourceTree = "<group>";
+		};
+		2EB8A7DA24C987EE0016EDB4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E38F03E24C86A410072176B /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EB8A7DB24C987FE0016EDB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E38F04024C876350072176B /* HomeBottomControlsStackView.swift */,
+				2E50233D24C87B65003570DE /* TopNavigationStackView.swift */,
+				2EB8A7D824C968F60016EDB4 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EB8A7DC24C99F480016EDB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EB8A7DD24C99F610016EDB4 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E38F02F24C867990072176B /* ViewController.swift in Sources */,
+				2EB8A7D924C968F60016EDB4 /* CardView.swift in Sources */,
+				2E38F02F24C867990072176B /* HomeController.swift in Sources */,
 				2E38F02B24C867990072176B /* AppDelegate.swift in Sources */,
 				2E38F02D24C867990072176B /* SceneDelegate.swift in Sources */,
+				2EB8A7DE24C99F610016EDB4 /* User.swift in Sources */,
+				2E50233E24C87B65003570DE /* TopNavigationStackView.swift in Sources */,
+				2E38F03F24C86A410072176B /* Extensions.swift in Sources */,
+				2E38F04124C876350072176B /* HomeBottomControlsStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
